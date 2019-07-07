@@ -6,27 +6,20 @@ base: /go
   
 path: src/github.com/Jumanjii/sik
 steps:
-  - 
-name: test
-    
-image: golang
-    
-commands:
+  - name: test
+    image: golang 
+    commands:
       - go get
       - go test
   - name: build
-    
-image: golang
-    
-commands:
+    image: golang
+    commands:
       - go get
       - go build -o output
       - chmod +x output
   - name: run
-    
-image: golang
-    
-commands:
+    image: golang
+    commands:
       - go get
       - go build -o output
       - chmod +x output
