@@ -1,5 +1,7 @@
 # Sik - Not so useless password generator
 
+![Image of sugarcane](https://github.com/Jumanjii/sik/blob/master/sugarcane.png)
+
 [![Build Status](https://cloud.drone.io/api/badges/Jumanjii/sik/status.svg)](https://cloud.drone.io/Jumanjii/sik)
 
 Sik is a simple password generator.
